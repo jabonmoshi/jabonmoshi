@@ -178,6 +178,23 @@
             max-width: 200px; /* Limitar el tamaño máximo si es necesario */
             max-height: 200px; /* Limitar el tamaño máximo si es necesario */
         }
+
+        /* Nuevo estilo para hacer que el enlace de Facebook sea más visible */
+        .facebook-link {
+            display: inline-block;
+            background-color: #1877f2; /* Azul de Facebook */
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            margin-top: 10px;
+            transition: background-color 0.3s ease;
+        }
+
+        .facebook-link:hover {
+            background-color: #165eab; /* Azul más oscuro cuando se pasa el mouse */
+        }
     </style>
 </head>
 <body>
@@ -239,7 +256,9 @@
         <p>Si tienes alguna consulta o deseas hacer un pedido, no dudes en ponerte en contacto con nosotros:</p>
         <p><strong>Email:</strong> <a href="mailto:jabonmoshi@gmail.com">jabonmoshi@gmail.com</a></p>
         <p><strong>Teléfono:</strong> <a href="tel:+519831731342">983 173 1342</a></p>
-        <p><strong>Síguenos en Facebook:</strong> <a href="https://www.facebook.com/profile.php?id=61568183547426" target="_blank">JABON MOSHI en Facebook</a></p>
+        <p><strong>Síguenos en Facebook:</strong> 
+            <a href="https://www.facebook.com/profile.php?id=61568183547426" target="_blank" class="facebook-link">JABON MOSHI en Facebook</a>
+        </p>
     </section>
 
     <!-- Código QR de Facebook -->
@@ -257,3 +276,4 @@
 
 </body>
 </html>
+
