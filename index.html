@@ -3,9 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Jabones artesanales JABON MOSHI, elaborados con ingredientes naturales como miel, arroz, café y avena, enriquecidos con aceite de coco.">
+    <meta name="description" content="Jabones artesanales JABON MOSHI, 100% naturales, sin aditivos ni químicos, elaborados con ingredientes como miel, arroz, café y avena. Sin parabenos, en Chetumal, Quintana Roo, México.">
+    <meta name="keywords" content="jabón, moshi, artesanal, natural, sin aditivos, sin químicos, 100% natural, Quintana Roo, México, Chetumal, miel, café, arroz, avena">
     <meta name="author" content="JABON MOSHI">
-    <title>JABON MOSHI - Jabones Artesanales</title>
+    <meta itemprop="name" content="JABON MOSHI">
+    <meta itemprop="description" content="Jabones artesanales 100% naturales, sin químicos, sin aditivos. Hechos con ingredientes como miel, arroz, café y avena. Ubicados en Chetumal, Quintana Roo, México.">
+    <meta itemprop="brand" content="JABON MOSHI">
+    <meta itemprop="manufacturer" content="JABON MOSHI, Chetumal, Quintana Roo, México">
+    <meta itemprop="category" content="Jabón artesanal">
+    <title>JABON MOSHI - Jabones Artesanales 100% Naturales en Chetumal, Quintana Roo</title>
     <style>
         /* Estilos generales (para escritorios) */
         body {
@@ -120,69 +126,58 @@
             font-weight: bold;
         }
 
-        /* Estilos responsivos para pantallas pequeñas (como móviles) */
         @media screen and (max-width: 768px) {
-            /* Ajustar el tamaño del logo */
             header img {
                 width: 100px;
                 height: 100px;
             }
 
-            /* Cambiar el tamaño del título y texto en el header */
             header h1 {
                 font-size: 3em;
             }
 
-            /* Modificar la disposición del contenedor */
             .container {
-                width: 90%; /* Reduce el ancho del contenedor */
+                width: 90%;
                 padding: 0 10px;
             }
 
-            /* Ajustar imágenes de productos para pantallas más pequeñas */
             .product img {
-                width: 80%; /* Las imágenes serán más grandes en móviles */
+                width: 80%;
             }
 
-            /* Ajustar los textos de los productos */
             .product-info h2 {
-                font-size: 1.2em; /* Reducir el tamaño del título */
+                font-size: 1.2em;
             }
 
             .product-info p {
-                font-size: 0.9em; /* Reducir tamaño de texto */
+                font-size: 0.9em;
             }
 
-            /* Modificar el footer */
             footer p {
                 font-size: 0.8em;
             }
         }
 
-        /* Asegurarse de que las imágenes no se desborden */
         img {
             max-width: 100%;
             height: auto;
         }
 
-        /* Estilos para el código QR */
         .qr-code {
-            text-align: center; /* Centra el contenido dentro de este contenedor */
+            text-align: center;
             margin-top: 20px;
         }
 
         .qr-code img {
-            /* Eliminamos las restricciones de tamaño fijo */
             width: auto; 
             height: auto;
-            max-width: 200px; /* Limitar el tamaño máximo si es necesario */
-            max-height: 200px; /* Limitar el tamaño máximo si es necesario */
+            max-width: 200px;
+            max-height: 200px;
         }
 
-        /* Nuevo estilo para hacer que el enlace de Facebook sea más visible */
         .facebook-link {
             display: inline-block;
-            background-color: #1877f2; /* Azul de Facebook */
+            background-color: #1877f2;
             color: white;
             padding: 10px 20px;
             text-decoration: none;
@@ -193,7 +188,7 @@
         }
 
         .facebook-link:hover {
-            background-color: #165eab; /* Azul más oscuro cuando se pasa el mouse */
+            background-color: #165eab;
         }
     </style>
 </head>
@@ -203,7 +198,7 @@
     <img src="logo.png" alt="Logo de JABON MOSHI">
     <div class="container">
         <h1>JABON MOSHI</h1>
-        <p>Artesanía y pureza en cada burbuja</p> <!-- Slogan agregado -->
+        <p>Artesanía y pureza en cada burbuja</p>
         <p>Jabones artesanales, 100% naturales con aceite de coco</p>
     </div>
 </header>
@@ -213,38 +208,38 @@
         <h2>Descubre nuestros jabones naturales</h2>
 
         <!-- Jabón de Miel -->
-        <div class="product">
-            <img src="jabón-miel.jpg" alt="Jabón de Miel">
+        <div class="product" itemscope itemtype="https://schema.org/Product">
+            <img src="jabón-miel.jpg" alt="Jabón artesanal de miel 100% natural sin químicos, sin aditivos, elaborado en Chetumal, Quintana Roo, México" itemprop="image">
             <div class="product-info">
-                <h2>Jabón de Miel</h2>
-                <p>El Jabón de Miel de JABON MOSHI es suave y nutritivo. Ideal para todo tipo de piel, tiene propiedades hidratantes y antibacterianas, gracias a la miel pura y al aceite de coco que lo enriquecen.</p>
+                <h2 itemprop="name">Jabón de Miel</h2>
+                <p itemprop="description">El Jabón de Miel de JABON MOSHI es suave y nutritivo. Ideal para todo tipo de piel, tiene propiedades hidratantes y antibacterianas, gracias a la miel pura y al aceite de coco que lo enriquecen.</p>
             </div>
         </div>
 
         <!-- Jabón de Arroz -->
-        <div class="product">
-            <img src="jabón-arroz.jpg" alt="Jabón de Arroz">
+        <div class="product" itemscope itemtype="https://schema.org/Product">
+            <img src="jabón-arroz.jpg" alt="Jabón artesanal de arroz, ideal para la piel, elaborado sin químicos ni aditivos, 100% natural en Chetumal, Quintana Roo, México" itemprop="image">
             <div class="product-info">
-                <h2>Jabón de Arroz</h2>
-                <p>Este jabón es perfecto para revitalizar y suavizar la piel. La avena y el aceite de coco ayudan a mantener la hidratación, mientras que el arroz ofrece propiedades aclarantes y antioxidantes.</p>
+                <h2 itemprop="name">Jabón de Arroz</h2>
+                <p itemprop="description">Este jabón es perfecto para revitalizar y suavizar la piel. La avena y el aceite de coco ayudan a mantener la hidratación, mientras que el arroz ofrece propiedades aclarantes y antioxidantes.</p>
             </div>
         </div>
 
         <!-- Jabón de Café -->
-        <div class="product">
-            <img src="jabón-cafe.jpg" alt="Jabón de Café">
+        <div class="product" itemscope itemtype="https://schema.org/Product">
+            <img src="jabón-cafe.jpg" alt="Jabón de café artesanal, 100% natural, sin químicos, ideal para exfoliar la piel y energizarla, fabricado en Chetumal, Quintana Roo, México" itemprop="image">
             <div class="product-info">
-                <h2>Jabón de Café</h2>
-                <p>El Jabón de Café de JABON MOSHI es energizante y exfoliante. Perfecto para empezar el día con energía, eliminando las células muertas de la piel mientras disfrutas de su aroma refrescante.</p>
+                <h2 itemprop="name">Jabón de Café</h2>
+                <p itemprop="description">El Jabón de Café de JABON MOSHI es energizante y exfoliante. Perfecto para empezar el día con energía, eliminando las células muertas de la piel mientras disfrutas de su aroma refrescante.</p>
             </div>
         </div>
 
         <!-- Jabón de Avena -->
-        <div class="product">
-            <img src="jabón-avena.jpg" alt="Jabón de Avena">
+        <div class="product" itemscope itemtype="https://schema.org/Product">
+            <img src="jabón-avena.jpg" alt="Jabón de avena artesanal, 100% natural, sin aditivos, ideal para pieles sensibles, hecho en Chetumal, Quintana Roo, México" itemprop="image">
             <div class="product-info">
-                <h2>Jabón de Avena</h2>
-                <p>La avena en este jabón proporciona un efecto calmante y antiinflamatorio, ideal para pieles sensibles. Junto con el aceite de coco, es perfecto para mantener la piel suave, limpia y libre de impurezas.</p>
+                <h2 itemprop="name">Jabón de Avena</h2>
+                <p itemprop="description">La avena en este jabón proporciona un efecto calmante y antiinflamatorio, ideal para pieles sensibles. Junto con el aceite de coco, es perfecto para mantener la piel suave, limpia y libre de impurezas.</p>
             </div>
         </div>
 
@@ -276,4 +271,3 @@
 
 </body>
 </html>
-
