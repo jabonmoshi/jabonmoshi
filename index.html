@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Compra jabones artesanales 100% naturales sin químicos, elaborados con miel, arroz, café, avena y aceite de coco. Productos elaborados en Chetumal, Quintana Roo, ideales para todo tipo de piel. Sin parabenos, para una experiencia de cuidado natural.">
+    <meta name="keywords" content="jabones naturales, jabones artesanales, jabones de miel, jabones de avena, jabones de arroz, productos naturales, jabones sin químicos, jabones para piel sensible, Chetumal, Quintana Roo, México">
+    <meta name="author" content="JABÓN MOSHI">
+    <meta itemprop="name" content="JABÓN MOSHI">
+    <meta itemprop="description" content="Jabones artesanales 100% naturales, sin químicos, sin aditivos. Hechos con ingredientes como miel, arroz, café y avena. Ubicados en Chetumal, Quintana Roo, México.">
+    <meta itemprop="brand" content="JABÓN MOSHI">
+    <meta itemprop="manufacturer" content="JABÓN MOSHI, Chetumal, Quintana Roo, México">
+    <meta itemprop="category" content="Jabón artesanal">
+    <meta property="og:title" content="JABÓN MOSHI - Jabones Artesanales 100% Naturales">
+    <meta property="og:description" content="Jabones artesanales, 100% naturales sin aditivos ni químicos, hechos con miel, avena, café, arroz y aceite de coco. Ubicados en Chetumal, Quintana Roo, México.">
+    <meta property="og:image" content="https://jabonmoshi.github.io/jabonmoshi/logo.png">
+    <meta property="og:url" content="https://jabonmoshi.github.io/jabonmoshi/">
+    <meta name="robots" content="index, follow">
+    <title>JABÓN MOSHI - Jabones Artesanales 100% Naturales en Chetumal, Quintana Roo | Jabón de Miel, Café, Arroz y Avena</title>
+<!-- Favicon principal para navegadores -->
+    <link rel="icon" href="/FAVICONMOSHI.ico" type="image/png">
+
+    <!-- Favicon para dispositivos Apple (pantalla de inicio en iPhone/iPad) -->
+    <link rel="apple-touch-icon" href="/FAVICONMOSHI.ico">
+    <style>
+        /* Estilos generales (para escritorios) */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000000;
+            color: #f4f4f4;
+        }
+
+        header {
+            background-color: #d4af37; /* Dorado */
+            color: white;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 4px solid #000000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            flex-direction: column;
+        }
+
+        header img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 5em;
+            background-color: #000000; /* Fondo negro */
+            padding: 10px;
+            color: white; /* Color de texto blanco */
+        }
+
+        header p {
+            font-size: 1.2em;
+            margin-top: 5px;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        .product {
+            background-color: #333333;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            margin-bottom: 20px;
+            overflow: hidden;
+            padding-bottom: 20px;
+        }
+
+        .product:hover img {
+            transform: scale(1.05); /* Solo amplía la imagen */
+        }
+
+        .product img {
+            width: 50%; /* Ajuste al 50% del ancho */
+            display: block;
+            margin: 0 auto;
+            border-bottom: 2px solid #d4af37; /* Dorado */
+        }
+
+        .product-info {
+            padding: 10px 20px;
+        }
+
+        .product-info h2 {
+            margin-top: 0;
+            color: #d4af37; /* Dorado */
+            font-size: 1.4em; /* Tamaño más pequeño para el título */
+        }
+
+        .product-info p {
+            font-size: 1em;
+            color: #f4f4f4;
+            line-height: 1.4;
+        }
+
+        footer {
+            background-color: #000000;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+            border-top: 4px solid #d4af37; /* Dorado */
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        .contact-info {
+            background-color: #d4af37;
+            color: #000000;
+            padding: 20px;
+            text-align: center;
+            border-radius: 10px;
+            margin-top: 30px;
+        }
+
+        .contact-info h3 {
+            margin-top: 0;
+        }
+
+        .contact-info a {
+            color: #000000;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .qr-code {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .qr-code img {
+            max-width: 200px;
+            max-height: 200px;
+        }
+
+        .facebook-link {
+            display: inline-block;
+            background-color: #1877f2;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            margin-top: 10px;
+            transition: background-color 0.3s ease;
+        }
+
+        .facebook-link:hover {
+            background-color: #165eab;
+        }
+
+        @media screen and (max-width: 768px) {
+            header img {
+                width: 100px;
+                height: 100px;
+            }
+
+            header h1 {
+                font-size: 3em;
+            }
+
+            .container {
+                width: 90%;
+                padding: 0 10px;
+            }
+
+            .product img {
+                width: 80%;
+            }
+
+            .product-info h2 {
+                font-size: 1.2em;
+            }
+
+            .product-info p {
+                font-size: 0.9em;
+            }
+
+            footer p {
+                font-size: 0.8em;
+            }
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="logo.png" alt="Logo de JABÓN MOSHI">
+    <div class="container">
+        <h1>JABÓN MOSHI</h1>
+        <p>Artesanía y pureza en cada burbuja</p>
+        <p>Jabones artesanales, 100% naturales con aceite de coco</p>
+    </div>
+</header>
+
+<div class="container">
+    <section>
+        <h2>Descubre nuestros jabones naturales</h2>
+
+        <!-- Jabón de Miel -->
+        <div class="product" itemscope itemtype="https://schema.org/Product">
+            <img src="jabón-miel.jpg" alt="Jabón artesanal de miel 100% natural sin químicos, sin aditivos, elaborado en Chetumal, Quintana Roo, México" itemprop="image">
+            <div class="product-info">
+                <h2 itemprop="name">Jabón de Miel</h2>
+                <p itemprop="description">El Jabón de Miel de JABÓN MOSHI es suave y nutritivo. Ideal para todo tipo de piel, tiene propiedades hidratantes, relajantes y antibacterianas, gracias a la miel pura y al aceite de coco que lo enriquecen.</p>
+            </div>
+        </div>
+
+        <!-- Jabón de Arroz -->
+        <div class="product" itemscope itemtype="https://schema.org/Product">
+            <img src="jabón-arroz.jpg" alt="Jabón artesanal de arroz, ideal para la piel, elaborado sin químicos ni aditivos, 100% natural en Chetumal, Quintana Roo, México" itemprop="image">
+            <div class="product-info">
+                <h2 itemprop="name">Jabón de Arroz</h2>
+                <p itemprop="description">Este jabón es perfecto para revitalizar y suavizar la piel. El aceite de coco ayuda a mantener la hidratación, mientras que el arroz ofrece propiedades aclarantes y antioxidantes.</p>
+            </div>
+        </div>
+
+        <!-- Jabón de Café -->
+        <div class="product" itemscope itemtype="https://schema.org/Product">
+            <img src="jabón-cafe.jpg" alt="Jabón de café artesanal, 100% natural, sin químicos, ideal para exfoliar la piel y energizarla, fabricado en Chetumal, Quintana Roo, México" itemprop="image">
+            <div class="product-info">
+                <h2 itemprop="name">Jabón de Café</h2>
+                <p itemprop="description">El Jabón de Café de JABÓN MOSHI es energizante y exfoliante. Perfecto para piel seca, opaca, sensible o con celulitis, el café actúa como un exfoliante natural y la miel y el aceite de coco hidratan profundamente.</p>
+            </div>
+        </div>
+
+        <!-- Jabón de Avena -->
+        <div class="product" itemscope itemtype="https://schema.org/Product">
+            <img src="jabón-avena.jpg" alt="Jabón de avena artesanal, 100% natural sin químicos, sin aditivos, ideal para piel sensible, fabricado en Chetumal, Quintana Roo, México" itemprop="image">
+            <div class="product-info">
+                <h2 itemprop="name">Jabón de Avena</h2>
+                <p itemprop="description">Nuestro Jabón de Avena es ideal para pieles sensibles y secas. Con propiedades calmantes y nutritivas, este jabón deja la piel suave, hidratada y con un delicioso aroma natural.</p>
+            </div>
+        </div>
+    </section>
+
+    <div class="contact-info">
+        <h3>¡Haz tu pedido hoy!</h3>
+        <p>Contáctanos para más información sobre nuestros jabones artesanales o compra directamente en nuestras tiendas:</p>
+        <p><strong>Email:</strong> <a href="mailto:jabonmoshi@gmail.com" aria-label="Enviar email a JABÓN MOSHI">jabonmoshi@gmail.com</a></p>
+        <p><strong>Teléfono:</strong> <a href="tel:+529831731342" aria-label="Llamar a JABÓN MOSHI">+52 983 173 13 42</a></p>
+        <a href="https://www.facebook.com/profile.php?id=61568183547426" class="facebook-link" target="_blank" rel="noopener noreferrer">Síguenos en Facebook</a>
+        <br>
+        <a href="https://articulo.mercadolibre.com.mx/MLM-2183615705-jabon-moshi-artesanal-pack-4-mixto-miel-cafe-avena-arroz-_JM#polycard_client=search-nordic&position=30&search_layout=grid&type=item&tracking_id=00a0e414-c89e-4f64-ac6f-c6177e77a053" class="facebook-link" target="_blank" rel="noopener noreferrer">Compra en Mercado Libre</a>
+    </div>
+
+    <div class="qr-code">
+        <h3>Escanea para comprar en Mercado Libre</h3>
+        <a href="https://articulo.mercadolibre.com.mx/MLM-2183615705-jabon-moshi-artesanal-pack-4-mixto-miel-cafe-avena-arroz-_JM#polycard_client=search-nordic&position=30&search_layout=grid&type=item&tracking_id=00a0e414-c89e-4f64-ac6f-c6177e77a053" target="_blank" rel="noopener noreferrer">
+            <img src="qrmercado.png" alt="Código QR Mercado Libre">
+        </a>
+    </div>
+
+    <div class="qr-code">
+        <h3>Escanea para comprar en Facebook</h3>
+        <a href="https://www.facebook.com/profile.php?id=61568183547426" target="_blank" rel="noopener noreferrer">
+            <img src="qrfacebook.png" alt="Código QR Facebook">
+        </a>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2024 JABÓN MOSHI - Todos los derechos reservados.</p>
+    <p>Hecho con amor en Chetumal, Quintana Roo, México</p>
+</footer>
+
+</body>
+</html>
